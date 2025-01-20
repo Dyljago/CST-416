@@ -128,7 +128,7 @@ fun main(args: Array<String>) {
                         val inputID = readLine()?.toIntOrNull()
                         if (inputID != null) {
                             val result = snowMenList.indexOfFirst { it.id == inputID }
-                            if (result != null) {
+                            if (result != -1) {
                                 idNum = result
                                 valid = true
                             } else {
@@ -154,7 +154,7 @@ fun main(args: Array<String>) {
                         val inputID = readLine()?.toIntOrNull()
                         if (inputID != null) {
                             val result = snowMenList.indexOfFirst { it.id == inputID }
-                            if (result != null) {
+                            if (result != -1) {
                                 idNum = result
                                 valid = true
                             } else {
