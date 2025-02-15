@@ -47,6 +47,9 @@ class MainActivity : ComponentActivity() {
                 Column(
                     modifier = Modifier.fillMaxSize()
                 ) {
+                    // Part 1
+                    // MyTemperatureConverterApp()
+                    // Part 2
                     MyTipCalculatorApp()
                 }
             }
