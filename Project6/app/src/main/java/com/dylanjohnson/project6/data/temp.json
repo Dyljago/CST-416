@@ -1,0 +1,32 @@
+[
+  {
+    "answer": "A brick.",
+    "answerIsVisible": false,
+    "id": 0,
+    "question": "What's red and hurts your teeth?"
+  },
+  {
+    "answer": "Red paint.",
+    "answerIsVisible": false,
+    "id": 1,
+    "question": "What is red and smells like blue paint?"
+  },
+  {
+    "answer": "Because it was two tired.",
+    "answerIsVisible": false,
+    "id": 2,
+    "question": "Why did the bicycle fall over?"
+  },
+  {
+    "answer": "Pouch potato.",
+    "answerIsVisible": true,
+    "id": 3,
+    "question": "What do you call a lazy kangaroo?"
+  },
+  {
+    "answer": "To get to the other slide.",
+    "answerIsVisible": false,
+    "id": 4,
+    "question": "Why did the chicken cross the playground?"
+  }
+]
