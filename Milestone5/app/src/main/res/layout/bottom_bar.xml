@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/bottomBar"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:layout_alignParentBottom="true"
+	android:layout_gravity="bottom"
+	android:background="@color/orange_accent"
+	android:gravity="center"
+	android:orientation="horizontal"
+	android:padding="4dp">
+
+	<!-- First Button -->
+	<Button
+		android:id="@+id/button_contacts"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:background="?android:attr/selectableItemBackground"
+		android:drawableTop="@drawable/contacts_icon"
+		android:drawablePadding="4dp"
+		android:text="Contacts"
+		android:textSize="14sp"
+		android:textStyle="bold" />
+
+	<!-- Second Button -->
+	<Button
+		android:id="@+id/button_favorites"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:background="?android:attr/selectableItemBackground"
+		android:drawableTop="@drawable/favorites_icon"
+		android:drawablePadding="4dp"
+		android:text="Favorites"
+		android:textStyle="bold" />
+
+	<!-- Third Button -->
+	<Button
+		android:id="@+id/button_groups"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:background="?android:attr/selectableItemBackground"
+		android:drawableTop="@drawable/groups_icon"
+		android:drawablePadding="4dp"
+		android:text="Groups"
+		android:textStyle="bold" />
+
+</LinearLayout>
