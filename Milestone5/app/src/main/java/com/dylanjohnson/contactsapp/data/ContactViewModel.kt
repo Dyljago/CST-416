@@ -198,7 +198,7 @@ class ContactViewModel (context: Context) : ContactViewModelInterface, ViewModel
             contactsList[id] = updatedContact
 
             // Save the changes to persistent storage
-            saveContacts()
+//            saveContacts()
 
             // Log for debugging
 //            Log.d("IMAGE PERSON ORIGIN", contact.toString())

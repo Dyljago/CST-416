@@ -896,6 +896,7 @@ fun DetailScreen(backgroundImage: Int, contactId: Int?, navController: NavHostCo
                     onResult = { success ->
                         if (success && photoUri != null) {
                             selectedImageUri = photoUri
+                            onPhotoSelected(contactId, photoUri)
 //                            onPhotoSelected(photoUri)
                         } else {
 //                            onPhotoSelected(null)
@@ -2301,6 +2302,7 @@ fun MapContact(address: String, context: Context) {
     }
 }
 
+/*
 @Composable
 fun PhotoContact(context: Context) {
     var contactPhotoUri by remember { mutableStateOf<Uri?>(null) }
@@ -2414,4 +2416,4 @@ data class JokeModel(
     var answer : String,
     var answerIsVisible: Boolean
 )
-
+*/
