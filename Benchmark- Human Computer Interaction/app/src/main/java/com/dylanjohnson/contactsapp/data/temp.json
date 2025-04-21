@@ -1,0 +1,95 @@
+[
+  {
+    "birthDate": [
+      2025,
+      4,
+      4
+    ],
+    "emergencyContact": false,
+    "familyMember": true,
+    "favorite": true,
+    "group": "",
+    "pictureURL": null,
+    "address": "11111 east fake street, Zoo, Narnia 99999",
+    "email": "test@test.com",
+    "expanded": false,
+    "id": 0,
+    "name": "Person Example",
+    "phoneNum": "555-555-5555",
+    "birthday": "2025-04-04",
+    "emergency": false,
+    "is_family": true,
+    "is_favorite": true,
+    "picture_url": null
+  },
+  {
+    "daysOpen": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    "daysOpenForText": "Days Open: Mon, Tue, Wed, Thu, Fri",
+    "myOpinionRating": 3.5,
+    "webURL": "https://businessEmail.com",
+    "address": "99999 west business street, Busy, Ness 00000",
+    "email": "business@test.com",
+    "expanded": false,
+    "id": 1,
+    "name": "Business Example",
+    "phoneNum": "555-678-9101",
+    "days_open": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false
+    ],
+    "my_opinion": 3.5,
+    "web_url": "https://businessEmail.com"
+  },
+  {
+    "birthDate": [
+      2025,
+      4,
+      4
+    ],
+    "emergencyContact": false,
+    "familyMember": true,
+    "favorite": false,
+    "group": "",
+    "pictureURL": null,
+    "address": "11111 west fake street, Zoo, Narnia 99999",
+    "email": "test@test.com",
+    "expanded": false,
+    "id": 2,
+    "name": "Test Person",
+    "phoneNum": "555-555-5555",
+    "birthday": "2025-04-04",
+    "emergency": false,
+    "is_family": true,
+    "is_favorite": false,
+    "picture_url": null
+  },
+  {
+    "address": "11111 east fake street, Aquarium, Narnia 99998",
+    "email": "test2@test.com",
+    "expanded": false,
+    "id": 3,
+    "name": "Test2",
+    "phoneNum": "555-556-5555"
+  },
+  {
+    "address": "11111 south fake street, Movie, Narnia 99899",
+    "email": "test3@test.com",
+    "expanded": false,
+    "id": 4,
+    "name": "Test3",
+    "phoneNum": "555-566-5555"
+  }
+]
